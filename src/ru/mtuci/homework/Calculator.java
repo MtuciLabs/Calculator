@@ -51,9 +51,8 @@ public class Calculator {
     if ("+".equals(operation)) { // если операция равно +
       System.out.println("Результат: " + calculator.sum(a, b));
     } else if ("-".equals(operation)) {
-      //TODO Напиши вызов метода вычитания и выпод результата здесь
-
-    } //TODO Допиши проверки для умножения и деления
+      System.out.println("Результат: " + calculator.subtract(a, b));
+    }
 
   }
 
@@ -70,11 +69,8 @@ public class Calculator {
 
 
   private double subtract(double a, double b) {
-    //TODO Напиши реализацию этого метода, чтобы он выполнял вычитание,
-    // сейчас всегда возвращается ноль.
-    return 0;
+    return a - b;
   }
 
-  //TODO Допиши по аналогии еще два метода: multiply, divide
 
 }
